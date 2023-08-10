@@ -12,6 +12,7 @@ export const CreateGallery = ({ hits }) => {
     </ImgGalleryUl>
   );
 };
+
 CreateGallery.propTypes = {
   hits: PropTypes.arrayOf(
     PropTypes.shape({
